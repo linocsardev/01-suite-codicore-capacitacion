@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "control": "ng serve --project=control --port=3000",
+    "facturacion": "ng serve --project=facturacion --port=3001",
+    "gestion": "ng serve --project=gestion --port=3002",
+    "academico": "ng serve --project=academico --port 3003"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +37,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^17.0.0",
     "typescript": "~5.2.2"
   }
 }
